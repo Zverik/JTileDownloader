@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project name="jTileDownloader" default="all" basedir=".">
 	<property file="application.properties" />
-	<property name="target.java.version" value="1.5" />
+	<property name="target.java.version" value="1.8" />
 	<property environment="env" />
 	<target name="all" depends="sources,release" description="Generates all targets" />
 	<target name="run" description="jTileDownloader" depends="package">
