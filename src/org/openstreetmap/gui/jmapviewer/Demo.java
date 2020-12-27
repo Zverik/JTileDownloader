@@ -53,8 +53,7 @@ public class Demo extends JFrame {
                 map.setDisplayToFitMapMarkers();
             }
         });
-        JComboBox tileSourceSelector = new JComboBox(new TileSource[] { new OsmTileSource.Mapnik(),
-                new OsmTileSource.TilesAtHome(), new OsmTileSource.CycleMap() });
+        JComboBox tileSourceSelector = new JComboBox(new TileSource[] { new OsmTileSource.Mapnik() });
         tileSourceSelector.addItemListener(new ItemListener() {
             public void itemStateChanged(ItemEvent e) {
                 map.setTileSource((TileSource) e.getItem());

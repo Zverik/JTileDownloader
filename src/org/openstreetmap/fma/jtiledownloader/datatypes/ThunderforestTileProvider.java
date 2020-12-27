@@ -30,7 +30,7 @@ public class ThunderforestTileProvider
 
     public ThunderforestTileProvider( String name, String url )
     {
-        this.url = "http://{0}." + url;
+        this.url = "https://{0}." + url;
         this.name = name;
     }
 

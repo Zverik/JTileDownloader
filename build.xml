@@ -44,7 +44,7 @@
 			sourcepath="${source.dir}"
 			splitindex="true"
 			use="true"
-			executable="${env.JAVA_HOME}/bin/javadoc"
+			executable="javadoc"
 			version="true">
 			<link href="http://java.sun.com/javase/6/docs/api/" />
 		</javadoc>

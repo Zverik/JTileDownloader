@@ -30,7 +30,7 @@ public class OsmFrTileProvider
 
     public OsmFrTileProvider()
     {
-        url = "http://{0}.tile.openstreetmap.fr/osmfr/";
+        url = "https://{0}.tile.openstreetmap.fr/osmfr/";
     }
 
     @Override

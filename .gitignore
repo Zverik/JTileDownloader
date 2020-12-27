@@ -1,0 +1,6 @@
+*.swp
+tiles/
+nbproject/
+appConfig.xml
+bin/
+doc/api/
