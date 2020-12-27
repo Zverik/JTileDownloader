@@ -243,7 +243,7 @@ public class TileListDownloader
         try
         {
             urlConnection = (HttpURLConnection) url.openConnection();
-            urlConnection.setRequestProperty("User-Agent", "JTileDownloader/" + Constants.VERSION);
+            urlConnection.setRequestProperty("User-Agent", Constants.USER_AGENT + "/" + Constants.VERSION);
             urlConnection.setUseCaches(true);
 
             // iflastmodifiedsince would work like this and you would get a 304 response code

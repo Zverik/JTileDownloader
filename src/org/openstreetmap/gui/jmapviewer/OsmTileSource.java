@@ -4,7 +4,7 @@ import org.openstreetmap.gui.jmapviewer.interfaces.TileSource;
 
 public class OsmTileSource {
 
-    public static final String MAP_MAPNIK = "http://tile.openstreetmap.org";
+    public static final String MAP_MAPNIK = "https://tile.openstreetmap.org";
     public static final String MAP_OSMA = "http://tah.openstreetmap.org/Tiles/tile";
 
     protected static abstract class AbstractOsmTileSource implements TileSource {

@@ -30,7 +30,7 @@ public class MapnikTileProvider
 
     public MapnikTileProvider()
     {
-        url = "http://{0}.tile.openstreetmap.org/";
+        url = "https://{0}.tile.openstreetmap.org/";
     }
 
     @Override
@@ -46,5 +46,11 @@ public class MapnikTileProvider
     public String getName()
     {
         return "Mapnik";
+    }
+
+    @Override
+    public int getMaxZoom()
+    {
+        return 19;
     }
 }
