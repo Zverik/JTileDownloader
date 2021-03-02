@@ -51,6 +51,6 @@ public class MapnikTileProvider
     @Override
     public int getMaxZoom()
     {
-        return 19;
+        return 12;
     }
 }
